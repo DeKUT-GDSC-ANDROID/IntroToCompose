@@ -8,8 +8,11 @@ import com.samkt.gdsc.ui.theme.GDSCTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
         setContent {
             GDSCTheme {
+                ProfileScreen()
             }
         }
     }
